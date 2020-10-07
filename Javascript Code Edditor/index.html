@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="icon.ico" type="image/gif" sizes="16x16">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shohanahmed Code Editor</title>
+  <meta name="description" content="This is an online code editor for html css and javascript. ">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="David Mungai">
+  <meta name="keywords" content="Live code editor, online code editor, live html editor, live css editor, live javascript editor">
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+
+  <div class="header-wrap">
+    <h1 class="model">Shohanahmed</>
+	<div class="photos">
+    <marquee><img src="img/shohan.jpg" alt="Shohanahmed" width="300" height="300" class="model"></marquee>
+	</div>
+	
+  </div>
+  <div id="ide-parent">
+    <div id="button-wrapper">
+      <button onclick="switchPanel(0)">HTML</button>
+      <button onclick="switchPanel(1)">CSS</button>
+      <button onclick="switchPanel(2)">js</button>
+      <button onclick="runEdit(3)">Result</button>
+    </div>
+    <div id="ide-container">
+      <div class="panel-wrapper">
+        <div id="html">
+<!--
+akhene html code gula output show korano hoyse
+
+-->
+        </div>
+		
+      </div>
+      <div class="panel-wrapper">
+        <div id="css">
+		<!--
+/* akhne just CSS gula show kora hoysilo*/
+
+
+}-->
+        </div>
+      </div>
+      <div class="panel-wrapper">
+        <div id="js">
+		<!--
+//akhne just javascript er code gula show korano hoysilo-->
+        </div>
+      </div>
+      <div class="panel-wrapper">
+        <iframe id="result"></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="description">
+    
+	 
+    
+	
+  </div>
+  <div class="footer">
+    <div class="inner-wrap">
+      
+      <div class="icons-wrap">
+       
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.11/ace.js" type="text/javascript"
+    charset="utf-8"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
